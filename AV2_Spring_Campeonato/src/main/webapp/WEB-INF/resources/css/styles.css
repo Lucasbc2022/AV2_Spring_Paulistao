@@ -1,0 +1,158 @@
+@charset "ISO-8859-1";
+
+#menu ul {
+    padding:0px;
+    margin:0px;
+    background-color: #104E8B;
+    list-style:none;
+    font-size: 18px;
+}
+
+#menu ul li { 
+	display: inline; 
+}
+
+#menu ul li a {
+	font-size: 18px;
+    padding: 2px 10px;
+    display: inline-block;
+    background-color:#4F80B5;
+    color: white;
+    text-decoration: none;
+    border-bottom:3px solid #EDEDED;
+}
+
+#menu ul li a:hover {
+	font-size: 18px;
+    background-color:#000000;
+    color: #6D6D6D;
+    border-bottom:3px solid #EA0000;
+}
+
+body {
+	
+background-image: url('https://img.freepik.com/vetores-gratis/fundo-de-futebol-gradiente-dinamico_23-2149007789.jpg?w=900&t=st=1683287357~exp=1683287957~hmac=5ac499be199315ca899edafe586698a0b56618b3fefeaaf8d0b56605daf899a2');
+ height: 500px;
+ background-size: cover;
+ color: white;
+ font-family: sans-serif;
+ 
+}
+.imagem {
+	width: 50%;
+    height: 50%;
+}
+
+.tableA {
+		background-color: #009ACD;
+		border: 1px solid black;
+		border-radius: 10px;
+		width: 300px;
+		height: 200px;
+}
+
+.tableB {
+		background-color: #4EEE94;
+		border: 1px solid black;
+		border-radius: 10px;
+		width: 300px;
+		height: 200px;
+}
+
+.tableC {
+		background-color: #EE5C42;
+		border: 1px solid black;
+		border-radius: 10px;
+		width: 300px;
+		height: 200px;
+}
+
+.tableD {
+		background-color: #9A32CD;
+		border: 1px solid black;
+		border-radius: 10px;
+		width: 300px;
+		height: 200px;
+}	
+
+input[type=submit] {
+	border: 5px solid blue;
+	color: black;
+	background-color: white;
+	border-radius: 4px;
+	font-size: 20px;
+}
+
+input[type=submit]:hover {
+	background-color: blue; 
+	color: white;
+}
+
+.title {
+	font-size: 28px;
+	color: black;
+}
+
+.container {
+	margin: auto;
+	width: 50%;
+	padding-bottom: 20px;
+	border: 6px solid gray;
+	box-shadow: 20px 20px 0 #777777;
+	border-radius: 50px;
+}
+
+.id_input_data {
+	border: 3px solid black;
+	border-radius: 4px;
+	height: 30px;
+	width: 50px;
+	font-size: 20px;
+}
+
+.date_input_data {
+	border: 3px solid black;
+	border-radius: 4px;
+	height: 30px;
+	width: 180px;
+	font-size: 20px;
+}
+
+.input_data {
+	border: 3px solid black;
+	border-radius: 4px;
+	height: 30px;
+	width: 350px;
+	font-size: 20px;
+}
+
+.table_round {
+	border: 1px solid black;
+	border-radius: 10px;
+	
+}
+
+.th_dash {
+	border: 0.5px solid blue;
+	border-style: dashed;
+}
+
+.td_groove {
+	border: 0.5px solid red;
+	border-style: groove;
+}
+
+.wrapper {
+	display: grid;
+	grid-template-columns: 200px 200px 200px 200px;
+	
+}
+	
+.table {
+		border: 1px solid black;
+	border-radius: 10px;
+background-color: #434343 ;
+
+
+
+}
